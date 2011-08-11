@@ -1,9 +1,10 @@
 require 'formula'
 
 class Premake < Formula
-  url 'http://downloads.sourceforge.net/project/premake/Premake/4.3/premake-4.3-src.zip'
-  md5 '8cfafee76f9665c93b2e9ad15b015eb7'
+  url 'http://downloads.sourceforge.net/project/premake/Premake/4.4/premake-4.4-beta3-src.zip'
+  md5 '1f0e00f137f1a635ce8b578223997218'
   homepage 'http://industriousone.com/premake'
+  version '4.4'
 
   def install
     # Linking against stdc++-static causes a library not found error on 10.7
